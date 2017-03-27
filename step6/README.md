@@ -68,13 +68,3 @@ iotfSession.send(BEEP_MSG.data(using: String.Encoding.utf8, allowLossyConversion
                              retain: false)
 
 ```
-
-And the final Node.Red flow working with the Rapberry Pi that receives the command, and selects if it is a BEEP or DOCK:
-
-![the flow](https://github.com/blumareks/iot-watson-swift/blob/master/lab3/img/lab3RpiFlow.png)
-
-
-
-If you have the robot (iRobot Create2) - you might want to connect it now:
-
-![connecting RPi to iRobot Create2's serial port](https://github.com/blumareks/iot-watson-swift/blob/master/lab3/img/connectRPi2_to_create2.png)

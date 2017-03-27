@@ -11,3 +11,14 @@ You need the following software/hardware:
 The following graph shows the architecture of this lab. On the left side on the bottom there is a smart device that connects to Watson IoT Platform service hosted on the Bluemix. Then the commands issued from the smart device invoke actions on the Raspberry Pi. Raspberry Pi is optionally connected thru a serial port with iRobot Create2.
 
 ![architecture](https://github.com/blumareks/iot-watson-swift/blob/master/lab3/img/architecture.png)
+
+
+And the final Node.Red flow working with the Rapberry Pi that receives the command, and selects if it is a BEEP or DOCK:
+
+![the flow](https://github.com/blumareks/iot-watson-swift/blob/master/lab3/img/lab3RpiFlow.png)
+
+
+
+If you have the robot (iRobot Create2) - you might want to connect it now:
+
+![connecting RPi to iRobot Create2's serial port](https://github.com/blumareks/iot-watson-swift/blob/master/lab3/img/connectRPi2_to_create2.png)
