@@ -100,7 +100,8 @@ Review the output in the debug panes.
 The two outputs are dissimilar because the Node-RED flow on the Raspberry Pi does not have the trigger warning that you used for the Node-RED flow in Bluemix. 
 If you disconnect the connections to the green debug node on the Raspberry Pi, you won't see any output in the first debug pane, which is highlighted in red, but you will see output in the debug pane highlighted in blue in the following image: 
 
-Step 4. Add social service notifications to your flow
+### Step 4. 
+Add social service notifications to your flow
 You can easily add other services on Node-RED on Bluemix, such as Twitter, a Cloudant database, or a language translator service. In this step, you'll add social service notifications through Twitter.
 Under social, drag a twitter out node onto the canvas under the cpu status node so that you can notify others when the CPU temperature exceeds 40° Celsius.
 
