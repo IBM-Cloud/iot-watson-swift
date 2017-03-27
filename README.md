@@ -8,8 +8,11 @@ Shall you want to get your home robot (or simply Raspberry Pi - **called RPi** )
 ## STEP 1. 
 In this project first you need to connect RPi to Bluemix (over internet). Bluemix is the IBM Cloud - there are essential Watson and *common* services that we are going to leverage in our project. Add Twitter node for Social Network communications. Then you need to publish some data to Cloudant NoSQL DB.
 
+[check the solution video for this step](https://youtu.be/qYP165NUaAs)
+
 ## STEP 2. 
 Read the data from an iOS device in a Swift App.
+[check the solution video for this step](https://youtu.be/dsNXsHrW5TA)
 
 ## STEP 3.
 Furthermore you can add 2-way communications from Bluemix to RPi - to invoke picture grabbing (and if you happan to have the Raspcam - a RPi camera - we will use it to take a picture), and then I will send the picture from RPi to Bluemix (I will store the image in the DB).
