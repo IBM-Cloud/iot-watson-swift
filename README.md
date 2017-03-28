@@ -15,18 +15,22 @@ Read the data from an iOS device in a Swift App.
 [check the solution video for this step](https://youtu.be/dsNXsHrW5TA)
 
 ## STEP 3.
-Furthermore you can add 2-way communications from Bluemix to RPi - to invoke picture grabbing (and if you happan to have the Raspcam - a RPi camera - we will use it to take a picture), and then I will send the picture from RPi to Bluemix (I will store the image in the DB).
+Furthermore you can add 2-way communications from Bluemix to RPi - to invoke picture grabbing (and if you happan to have the Raspcam - a RPi camera - we will use it to take a picture), and then I will send the picture from RPi to Bluemix (I will store the image in the DB). I will add the first Watson Service - the Visual Recognition - to our service to analyze picture.
+[check the solution video for this step - part 1](https://youtu.be/me3LPnEuGEU)
+[check the solution video for this step - part 2](https://youtu.be/XWjQH3dA8wI)
 
 ## STEP 4.
-I will add the first Watson Service - the Visual Recognition - to our service to analyze picture. I will add a button and function to the iOS app to show the picture if the button "show the picture" is pressed.
+I will add a button and function to the iOS app to show the picture from the step 3 when the button "show the picture" is pressed.
+[check the solution video for this step](https://youtu.be/7DvOP6iQPAg)
 
 ## STEP 5.
 Finally I will connect the iRobot Create2 robot (based on iRobot Roomba 600 series) over the Serial-USB cable to RPi.
-
+[check the solution video for this step](https://youtu.be/3oKUa3h4bAA)
 ## STEP 6.
 I will invoke some commands from the iOS Swift app over MQTT.
-
+check the solution video for this step in the video above.
 ## STEP 7.
-Just to make things cooler - I will ask our system about the weather forecast - if it is nice - I will get the information on golf conditions.
+Just to make things cooler - the Voice UI - I will ask our system about the weather forecasts - if it is nice - I will get the information on playing the golf conditions.
+[check the solution video for this step](https://youtu.be/4t50vEexQeo)
 
 So this simple 7 steps would allow us to augment a home appliance with Watson, and obtain a new Voice UI to create great User Experience (called as UX by many).
